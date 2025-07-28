@@ -2,6 +2,7 @@ import React from 'react'
 import { Hero } from '../components/sections/Hero'
 import AgriculturalProducts from '../components/sections/AgriculturalProducts'
 import LandscapeProducts from '../components/sections/LandscapeProducts'
+import Trusted from '../components/sections/Trusted'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero />
         <AgriculturalProducts />
         <LandscapeProducts />
+        <Trusted />
     </div>
   )
 }
