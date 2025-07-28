@@ -27,7 +27,7 @@ export default function Navbar() {
             <li>Contact</li>
           </ul>
         </div>
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
+        <div className="absolute top-5 left-1/2 transform -translate-x-1/2 z-50">
           <img src={logo} alt="" className="h-[150px]" />
         </div>
         <div className="flex items-center gap-[50px]">
