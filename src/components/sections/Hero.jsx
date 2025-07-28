@@ -43,10 +43,15 @@ export const Hero = () => {
                 <h2 className="text-[62px] font-medium leading-[72px] mb-5">
                   JF Privezy Grass Wall
                 </h2>
-                <p className="text-2xl mb-[50px]">The perfact Blend of Greenery</p>
+                <p className="text-2xl mb-[50px]">
+                  The perfact Blend of Greenery
+                </p>
 
-                <Button />
-                
+                <Button
+                  width={"w-[150px]"}
+                  height={"h-[50px]"}
+                  text={"text-lg"}
+                />
               </div>
             </div>
           </SwiperSlide>
@@ -62,10 +67,15 @@ export const Hero = () => {
                 <h2 className="text-[62px] font-medium leading-[72px] mb-5">
                   JF Privezy Grass Wall
                 </h2>
-                <p className="text-2xl mb-[50px]">The perfact Blend of Greenery</p>
+                <p className="text-2xl mb-[50px]">
+                  The perfact Blend of Greenery
+                </p>
 
-                <Button />
-                
+                <Button
+                  width={"w-[150px]"}
+                  height={"h-[50px]"}
+                  text={"text-lg"}
+                />
               </div>
             </div>
           </SwiperSlide>
@@ -81,14 +91,18 @@ export const Hero = () => {
                 <h2 className="text-[62px] font-medium leading-[72px] mb-5">
                   JF Australian Trellis
                 </h2>
-                <p className="text-2xl mb-[50px]">Where aesthetics meet durability</p>
+                <p className="text-2xl mb-[50px]">
+                  Where aesthetics meet durability
+                </p>
 
-                <Button />
-                
+                <Button
+                  width={"w-[150px]"}
+                  height={"h-[50px]"}
+                  text={"text-lg"}
+                />
               </div>
             </div>
           </SwiperSlide>
-          
         </Swiper>
       </div>
     </>

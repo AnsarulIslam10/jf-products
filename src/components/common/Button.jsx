@@ -1,7 +1,7 @@
-export default function Button() {
+export default function Button({width, height, text = 'text-lg'}) {
   return (
     <>
-        <p className='bg-[#B0DD1D] text-lg font-medium px-8 py-4 rounded-full w-[150px]'>Shop Now</p>
+        <p className={`bg-[#B0DD1D] flex justify-center items-center font-medium py-3 rounded-full ${width} ${height} ${text}`}>Shop Now</p>
     </>
   )
 }
