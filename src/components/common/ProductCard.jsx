@@ -13,7 +13,7 @@ export default function ProductCard() {
         4.995.00
       </p>
       <div className="mb-5">
-        <Button width={'w-[128px]'} height={'h-[38px]'} text={'text-sm'} />
+        <Button width={'w-[128px]'} height={'h-[38px]'} textSize={'text-sm'} text={"Shop Now"} />
       </div>
     </div>
   );

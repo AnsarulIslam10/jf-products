@@ -50,7 +50,8 @@ export const Hero = () => {
                 <Button
                   width={"w-[150px]"}
                   height={"h-[50px]"}
-                  text={"text-lg"}
+                  textSize={"text-lg"}
+                  text={"Shop Now"}
                 />
               </div>
             </div>
@@ -74,7 +75,8 @@ export const Hero = () => {
                 <Button
                   width={"w-[150px]"}
                   height={"h-[50px]"}
-                  text={"text-lg"}
+                  textSize={"text-lg"}
+                  text={"Shop Now"}
                 />
               </div>
             </div>
@@ -98,7 +100,8 @@ export const Hero = () => {
                 <Button
                   width={"w-[150px]"}
                   height={"h-[50px]"}
-                  text={"text-lg"}
+                  textSize={"text-lg"}
+                  text={"Shop Now"}
                 />
               </div>
             </div>
