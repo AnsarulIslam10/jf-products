@@ -10,9 +10,10 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
+
 export default function AgriculturalProducts() {
   return (
-    <div className="max-w-7xl mx-auto mt-[100px]">
+    <div className="max-w-7xl mx-auto mt-[100px] px-4 sm:px-6 lg:px-0">
       <div className="mb-[30px]">
         <SectionTitle title={"Agritultural Products"} />
       </div>
@@ -30,19 +31,15 @@ export default function AgriculturalProducts() {
           className="mySwiper"
           breakpoints={{
             640: {
-              // Tailwind sm
               slidesPerView: 1,
             },
             768: {
-              // Tailwind md
               slidesPerView: 2,
             },
             1024: {
-              // Tailwind lg
               slidesPerView: 3,
             },
             1280: {
-              // Tailwind xl
               slidesPerView: 4,
             },
           }}

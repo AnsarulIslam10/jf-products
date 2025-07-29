@@ -10,9 +10,10 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
+
 export default function LandscapeProducts() {
   return (
-    <div className="max-w-7xl mx-auto mt-[100px]">
+    <div className="max-w-7xl mx-auto mt-[100px] px-4 sm:px-6 lg:px-0">
       <div className="mb-[30px]">
         <SectionTitle title={"Landscape Products"} />
       </div>
