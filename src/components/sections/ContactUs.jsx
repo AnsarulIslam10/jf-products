@@ -77,7 +77,7 @@ export default function ContactUs() {
       {/* contact form */}
       <div className="flex flex-col lg:flex-row items-center justify-between mt-5 gap-10 lg:gap-10">
         <div className="w-full lg:w-[540px] space-y-6 bg-gradient-to-br from-[#0a193e] to-[#0d2358] rounded-2xl shadow-lg border border-dashed border-gray-600 p-10 sm:p-[50px]">
-          <h2 className="text-3xl font-bold text-white">Contact Us</h2>
+          <h2 className="text-[38px] font-medium text-white mb-[30px]">Contact Us</h2>
 
           <form className="space-y-5">
             {/* Your Name Input */}
