@@ -6,6 +6,8 @@ import Trusted from "../components/sections/Trusted";
 import WhyUs from "../components/sections/WhyUs";
 import Testimonial from "../components/sections/Testimonial";
 import ContactUs from "../components/sections/ContactUs";
+import MarqueeSection from "../components/sections/MarqueeSection";
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <LandscapeProducts />
       <Trusted />
       <WhyUs />
+      <MarqueeSection />
       <Testimonial />
       <ContactUs />
     </div>
