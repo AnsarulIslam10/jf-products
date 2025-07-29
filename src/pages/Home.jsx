@@ -5,6 +5,7 @@ import LandscapeProducts from "../components/sections/LandscapeProducts";
 import Trusted from "../components/sections/Trusted";
 import WhyUs from "../components/sections/WhyUs";
 import Testimonial from "../components/sections/Testimonial";
+import ContactUs from "../components/sections/ContactUs";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Trusted />
       <WhyUs />
       <Testimonial />
+      <ContactUs />
     </div>
   );
 }
