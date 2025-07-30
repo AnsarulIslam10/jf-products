@@ -10,8 +10,17 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
+import { useEffect, useState } from "react";
 
 export default function LandscapeProducts() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("/landscapeProducts.json")
+      .then((res) => res.json())
+      .then((data) => setProducts(data))
+      .catch((error) => console.error("Failed to fetch products", error));
+  }, []);
   return (
     <div className="max-w-7xl mx-auto mt-[100px] px-4 sm:px-6 lg:px-0">
       <div className="mb-[30px]">
@@ -19,54 +28,31 @@ export default function LandscapeProducts() {
       </div>
 
       <>
-        <Swiper
-          spaceBetween={30}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          navigation={true}
-          modules={[Autoplay, Navigation]}
-          className="mySwiper"
-          breakpoints={{
-            640: {
-              // Tailwind sm
-              slidesPerView: 1,
-            },
-            768: {
-              // Tailwind md
-              slidesPerView: 2,
-            },
-            1024: {
-              // Tailwind lg
-              slidesPerView: 3,
-            },
-            1280: {
-              // Tailwind xl
-              slidesPerView: 4,
-            },
-          }}
-        >
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProductCard />
-          </SwiperSlide>
-        </Swiper>
+        {products.length > 0 && (
+          <Swiper
+            spaceBetween={30}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            navigation={true}
+            modules={[Autoplay, Navigation]}
+            className="mySwiper"
+            breakpoints={{
+              640: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+              1280: { slidesPerView: 4 },
+            }}
+          >
+            {products.map((product) => (
+              <SwiperSlide key={product.id}>
+                <ProductCard product={product} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
       </>
     </div>
   );

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "product_name": "JF Barbed Wire- 270 GSM",
+    "image": "https://i.ibb.co/bRrM6vmF/agri1.png",
+    "price": "₹4,995.00"
+  },
+  {
+    "id": 2,
+    "product_name": "FGC RustFree Fencing Poles",
+    "image": "https://i.ibb.co/zTnYXzBK/agri2.png",
+    "price": "₹499.00 – ₹1,589.00"
+  },
+  {
+    "id": 3,
+    "product_name": "GI Poultry Mesh",
+    "image": "https://i.ibb.co/F48BNckf/agri3.png",
+    "price": "₹1,260.00 – ₹10,750.00"
+  },
+  {
+    "id": 4,
+    "product_name": "JF Bluelink Mesh",
+    "image": "https://i.ibb.co/27DT7g6G/agri4.png",
+    "price": "₹3,067.50 – ₹6,362.50"
+  },
+  {
+    "id": 5,
+    "product_name": "JF Barbed Wire- 270 GSM",
+    "image": "https://i.ibb.co/bRrM6vmF/agri1.png",
+    "price": "₹4,995.00"
+  },
+  {
+    "id": 6,
+    "product_name": "FGC RustFree Fencing Poles",
+    "image": "https://i.ibb.co/zTnYXzBK/agri2.png",
+    "price": "₹499.00 – ₹1,589.00"
+  },
+  {
+    "id": 7,
+    "product_name": "GI Poultry Mesh",
+    "image": "https://i.ibb.co/F48BNckf/agri3.png",
+    "price": "₹1,260.00 – ₹10,750.00"
+  },
+  {
+    "id": 8,
+    "product_name": "JF Bluelink Mesh",
+    "image": "https://i.ibb.co/27DT7g6G/agri4.png",
+    "price": "₹3,067.50 – ₹6,362.50"
+  }
+]
