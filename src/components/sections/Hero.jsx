@@ -28,7 +28,7 @@ export const Hero = () => {
           loop={true}
           navigation={true}
           modules={[Autoplay, Navigation]}
-          className="mySwiper"
+          className="mySwiper hero-swiper"
         >
           {/* Slide 1 */}
           <SwiperSlide>

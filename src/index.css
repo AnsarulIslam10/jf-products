@@ -4,3 +4,46 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    right:10px;
+    padding: 35px;
+    color: #000000 !important;
+    fill: black !important;
+    stroke: black !important;
+    border-radius: 50%;
+
+}
+
+/* For Hero Swiper only */
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
+  background-color: #b0dd1d;
+  color: #000 !important;
+  fill: black !important;
+  stroke: black !important;
+  right: 10px;
+  padding: 35px;
+  border-radius: 50%;
+}
+/* Hide default SVG */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* Use custom icon or emoji */
+.swiper-button-next::before {
+  content: '→'; /* or use font-awesome class in HTML */
+  font-size: 20px;
+  color: #000;
+}
+
+.swiper-button-prev::before {
+  content: '←';
+  font-size: 20px;
+  color: #000;
+}
