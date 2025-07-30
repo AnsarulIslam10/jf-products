@@ -15,7 +15,7 @@ const Footer = () => {
           }}
         />
 
-        <div className="relative z-10 shadow-md w-full p-6 md:p-9 max-w-7xl mx-auto mt-[100px]">
+        <div className="relative z-10 w-full p-6 md:p-9 max-w-7xl mx-auto mt-[100px]">
           <div className="flex justify-between gap-[30px] flex-wrap w-full mt-[104px]">
             <div>
               <h3 className="text-[32px] text-white font-medium mb-2">
