@@ -86,59 +86,69 @@ export default function ContactUs() {
 
         {/* contact form */}
         <div className="flex flex-col lg:flex-row items-center justify-between mt-5 gap-10 lg:gap-10">
-          <div className="w-full lg:w-[540px] space-y-6 bg-gradient-to-br from-[#0a193e] to-[#0d2358] rounded-2xl shadow-lg border border-dashed border-gray-600 p-10 sm:p-[50px]">
-            <h2 className="text-[38px] font-medium text-white mb-[30px]">
-              Contact Us
-            </h2>
+          <div className="relative w-full lg:w-[540px] space-y-6 bg-gradient-to-br from-[#0a193e] to-[#0d2358] rounded-2xl shadow-lg border border-dashed border-gray-600 p-10 sm:p-[50px] overflow-hidden">
+            <div
+              className="absolute -bottom-20 -right-10 w-[250px] h-[250px] rounded-full pointer-events-none z-60 blur-[100px]"
+              style={{
+                background:
+                  "radial-gradient(circle, rgba(27,127,225) 0%, transparent 90%)",
+              }}
+            />
 
-            <form className="space-y-5">
-              {/* Your Name Input */}
-              <div>
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
-                />
-              </div>
+            <div className="relative z-10">
+              <h2 className="text-[38px] font-medium text-white mb-[30px]">
+                Contact Us
+              </h2>
 
-              {/* Email Input */}
-              <div>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
-                />
-              </div>
+              <form className="space-y-5">
+                {/* Your Name Input */}
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
+                  />
+                </div>
 
-              {/* Phone Input */}
-              <div>
-                <input
-                  type="tel"
-                  placeholder="Phone *"
-                  className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
-                />
-              </div>
+                {/* Email Input */}
+                <div>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
+                  />
+                </div>
 
-              {/* Message Textarea */}
-              <div>
-                <textarea
-                  placeholder="Write message"
-                  rows="4"
-                  className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow resize-none"
-                ></textarea>
-              </div>
+                {/* Phone Input */}
+                <div>
+                  <input
+                    type="tel"
+                    placeholder="Phone *"
+                    className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow"
+                  />
+                </div>
 
-              {/* Submit Button */}
-              <div className="mt-[50px]">
-                <Button
-                  width="w-[130px] sm:w-[140px] md:w-[150px]"
-                  height="h-[45px] sm:h-[48px] md:h-[50px]"
-                  textSize="text-sm sm:text-base md:text-lg"
-                  text="Submit"
-                  className="mx-auto lg:mx-0"
-                />
-              </div>
-            </form>
+                {/* Message Textarea */}
+                <div>
+                  <textarea
+                    placeholder="Write message"
+                    rows="4"
+                    className="w-full px-4 py-3 bg-[#1c2e5a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-lime-400 placeholder-gray-400 transition-shadow resize-none"
+                  ></textarea>
+                </div>
+
+                {/* Submit Button */}
+                <div className="mt-[50px]">
+                  <Button
+                    width="w-[130px] sm:w-[140px] md:w-[150px]"
+                    height="h-[45px] sm:h-[48px] md:h-[50px]"
+                    textSize="text-sm sm:text-base md:text-lg"
+                    text="Submit"
+                    className="mx-auto lg:mx-0"
+                  />
+                </div>
+              </form>
+            </div>
           </div>
 
           <div className="w-full lg:w-[700px] h-[300px] sm:h-[400px] md:h-[480px] lg:h-[580px] rounded-2xl overflow-hidden">
