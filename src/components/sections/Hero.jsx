@@ -17,7 +17,7 @@ import Button from "../common/Button";
 export const Hero = () => {
   return (
     <>
-      <div className="max-w-screen mx-auto mt-[45px] px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto mt-[45px] px-4 sm:px-6 lg:px-8">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
